@@ -5,14 +5,14 @@
     "version": "1.0.0",
     "author": "Zoran",
     "license": "MIT",
-    "publisher": "hellozoran",
+    "publisher": "z-bones",
     "icon": "icon.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/hellozoran/synthwave-dark"
+        "url": "https://github.com/z-bones/synthwave-dark"
     },
     "bugs": {
-        "url": "https://github.com/hellozoran/synthwave-dark/issues"
+        "url": "https://github.com/z-bones/synthwave-dark/issues"
     },
     "engines": {
         "vscode": "^1.33.0"
