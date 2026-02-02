@@ -20,7 +20,7 @@ Search for "SynthWave '84 Dark" in VS Code/Cursor extensions.
 ### Manual Installation
 
 ```bash
-git clone https://github.com/z-bones/synthwave-dark.git ~/.vscode/extensions/synthwave-dark
+git clone https://github.com/z-bones/synthwave-dark.git ~/.vscode/extensions/z-bones.synthwave-dark
 ```
 
 Then reload your editor and select "SynthWave '84 Dark" from the color theme picker.
