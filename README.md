@@ -2,7 +2,7 @@
 
 A darker, higher contrast variant of [SynthWave '84](https://github.com/robb0wen/synthwave-vscode) with refined colors and improved readability.
 
-![Theme Preview](theme.jpg)
+![Theme Preview](theme.png)
 
 ## Changes from Original
 
