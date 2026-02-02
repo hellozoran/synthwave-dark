@@ -27,17 +27,11 @@
         "synthwave",
         "retro",
         "80s",
-        "neon",
         "cyberpunk"
     ],
     "categories": [
         "Themes"
     ],
-    "activationEvents": [
-        "onCommand:synthwave84.enableNeon",
-        "onCommand:synthwave84.disableNeon"
-    ],
-    "main": "./src/extension.js",
     "contributes": {
         "themes": [
             {
@@ -45,31 +39,6 @@
                 "uiTheme": "vs-dark",
                 "path": "./themes/synthwave-color-theme.json"
             }
-        ],
-        "commands": [
-            {
-                "command": "synthwave84.enableNeon",
-                "title": "SynthWave '84 Dark: Enable Neon Dreams"
-            },
-            {
-                "command": "synthwave84.disableNeon",
-                "title": "SynthWave '84 Dark: Disable Neon Dreams"
-            }
-        ],
-        "configuration": {
-            "title": "SynthWave '84 Dark",
-            "properties": {
-                "synthwave84.brightness": {
-                    "type": "number",
-                    "default": 0.45,
-                    "description": "Set the brightness value for the glow effect. 0.0 is fully transparent and 1.0 is fully bright"
-                },
-                "synthwave84.disableGlow": {
-                    "type": "boolean",
-                    "default": false,
-                    "description": "Disable the glow effect, but show editor chrome updates"
-                }
-            }
-        }
+        ]
     }
 }
